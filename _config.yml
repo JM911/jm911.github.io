@@ -18,9 +18,9 @@ minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "
 locale                   : "en-US"
 title                    : "JM's Blog"
 title_separator          : "-"
-subtitle                 : 기록 보관용 # site tagline that appears below site title in masthead
+subtitle                 : "Game programming and other stuffs..." # site tagline that appears below site title in masthead
 name                     : "JM"
-description              : "Game programming and other stuffs..."
+description              : "기록 보관용 블로그"
 url                      : "https://jm911.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
