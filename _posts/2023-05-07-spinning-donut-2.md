@@ -1,6 +1,7 @@
 ---
 layout: single
 title:  "Spinning Donut 구현 (2)"
+categories: coding
 ---
 
 # Sphere 구현
