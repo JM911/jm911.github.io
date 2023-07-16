@@ -3,6 +3,7 @@ layout: single
 title:  "Spinning Donut 구현 (0)"
 categories: coding
 tag: [cpp, graphics]
+toc: true
 ---
 
 예전 유튜브에서 Spinning Donut 에 대한 영상을 본 적이 있다. 사실 영상 내용은 그냥 유머였는데, 영상이 끝나기 전에 대략적인 구현 방법을 설명해주고 한 번 해보라고 했던 기억이 난다.

@@ -3,6 +3,7 @@ layout: single
 title:  "Spinning Donut 구현 (2)"
 categories: coding
 tag: [cpp, graphics]
+toc: true
 ---
 
 # Sphere 구현
