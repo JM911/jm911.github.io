@@ -2,6 +2,7 @@
 layout: single
 title:  "Spinning Donut 구현 (1)"
 categories: coding
+tag: [cpp, graphics]
 ---
 
 본 포스트에서는 Spinning Donut 을 구현하는 데 필요한 준비 지식을 간단하게 소개한다.
