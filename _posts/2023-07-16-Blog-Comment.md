@@ -7,7 +7,8 @@ toc: true
 ---
    
 요 며칠간 블로그를 혼자 처음부터 다시 만들겠다고 가이드 문서를 따라 헤딩하다가 결국 따라하기 영상으로 돌아왔다.  
-참고로 이 때 도움을 받은 것이 테디노트님의 영상이다. (재생목록: [https://youtube.com/playlist?list=PLIMb_GuNnFwfQBZQwD-vCZENL5YLDZekr](https://youtube.com/playlist?list=PLIMb_GuNnFwfQBZQwD-vCZENL5YLDZekr))  
+참고로 이 때 도움을 받은 것이 테디노트님의 영상이다.  
+(재생목록: [https://youtube.com/playlist?list=PLIMb_GuNnFwfQBZQwD-vCZENL5YLDZekr](https://youtube.com/playlist?list=PLIMb_GuNnFwfQBZQwD-vCZENL5YLDZekr))  
 minimal mistakes 테마의 한국어 가이드는 웹 페이지로 꽤 많지만, 영상이 확실히 생각 없이 따라하기 좋고, 그렇다면 이거만한 게 없다.  
   
 여튼 영상 내용 중 댓글을 추가하는 파트에서 disqus를 사용하시는 부분이 개인 취향에 맞지 않아 나는 다른 툴인 "giscus"를 택했다.  
