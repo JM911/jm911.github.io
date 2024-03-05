@@ -18,7 +18,7 @@ minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "
 locale                   : "ko-KR" #"en-US"
 title                    : "JM's Blog"
 title_separator          : "-"
-subtitle                 : "Game programming and other stuffs..." # site tagline that appears below site title in masthead
+subtitle                 : "Game programming and other stuffs" # site tagline that appears below site title in masthead
 name                     : "JM"
 description              : "기록 보관용 블로그"
 url                      : "https://jm911.github.io"
@@ -44,9 +44,9 @@ comments:
     theme                : # "github-light" (default), "github-dark"
     issue_term           : # "pathname" (default)
   giscus:
-    repo_id              : "R_kgDOJ7lNGA" # Shown during giscus setup at https://giscus.app
+    repo_id              : "R_kgDOLb9oYg" # Shown during giscus setup at https://giscus.app
     category_name        : "Announcements" # Full text name of the category
-    category_id          : "DIC_kwDOJ7lNGM4CX6vs" # Shown during giscus setup at https://giscus.app
+    category_id          : "DIC_kwDOLb9oYs4CdvL2" # Shown during giscus setup at https://giscus.app
     discussion_term      : "pathname" # "pathname" (default), "url", "title", "og:title"
     reactions_enabled    : '1' # '1' for enabled (default), '0' for disabled
     theme                : "dark" # "light" (default), "dark", "dark_dimmed", "transparent_dark", "preferred_color_scheme"
