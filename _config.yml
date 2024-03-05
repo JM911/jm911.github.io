@@ -23,7 +23,7 @@ name                     : "JM"
 description              : "기록 보관용 블로그"
 url                      : "https://jm911.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : "JM911/jm911.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : "JM911/comments" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : "/assets/images/LogoTest.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
