@@ -16,7 +16,7 @@ toc: true
 # 개요
 - 바인딩 오브 아이작, 엔터 더 건전, 하데스, 던전 오브 엔드리스 등 많은 로그라이크 게임에서는 '방' 단위의 아주 작은 전투 씬을 여러 개 묶어 하나의 스테이지로 구성합니다.
 - 이 때 어떤 방이 나오는지, 방 사이의 배치 연결이 어떻게 이루어지는지 등의 요소를 랜덤하게 생성하고, 이는 매 플레이마다 변수를 만들고 긴장을 유발하는 중요 요소로 작동합니다.
-- 본 기능에서는 이런 기능 중 일부를 모방하여 언리얼 엔진에 구현하고 
+- 본 기능에서는 이런 기능 중 일부를 모방하여 언리얼 엔진에 구현해보았습니다.
 
 
 # 클래스
@@ -37,6 +37,7 @@ toc: true
     - 구조가 직사각형이라 맵 모양의 자유도가 낮지만, 추후 비활성화 영역을 설정할 수 있게 하여 ┼, ┌ 모양 같은 방도 생성할 수 있게 하는 것을 고려 중입니다.
 - 외부에서 방의 위치를 정해주면 방의 바닥 중앙을 기준으로 배치
 - 현재 위치에서 지정된 다른 방과 충돌 여부를 계산하여 반환
+
     ```cpp
     bool ALABRoomBase::IsCollideWith(const ALABRoomBase* OtherRoom)
     {
@@ -58,7 +59,8 @@ toc: true
     ```
 - 정해진 방향에 벽에 출입용 공간 생성
     - 벽을 인스턴스 메쉬를 통한 큐브의 조합으로 만들기 때문에 원하는 위치를 비우고 다시 벽을 생성하면 적절하게 구멍을 뚫을 수 있습니다.
-    - 또한 스케일 조정을 통해 문의 크기도 세부적으로 조절할 수 있습니다.
+    - 또한 스케일 조정을 통해 문의 크기도 세부적으로 조절할 수 있습니다.  
+    
     ```cpp
     void ALABRoomBase::MakeDoor(EAdjacentDirection Direction)
     {
@@ -71,7 +73,8 @@ toc: true
         InstancedWall->ClearInstances();
         InstancedWall->SetStaticMesh(WallMesh);
 
-        TArray<EAdjacentDirection> Directions = { EAdjacentDirection::UP, EAdjacentDirection::LEFT, EAdjacentDirection::DOWN, EAdjacentDirection::RIGHT };
+        TArray<EAdjacentDirection> Directions = { EAdjacentDirection::UP, EAdjacentDirection::LEFT, 
+                                                EAdjacentDirection::DOWN, EAdjacentDirection::RIGHT };
         
         if(WallMesh)
         {
@@ -114,6 +117,7 @@ toc: true
 - 현재 위치에서 다른 방까지 연결된 통로 생성
     - 통로가 이어주는 두 개의 방 중 하나를 골라 반대편까지 통로 메쉬를 만들도록 하며, 마찬가지로 인스턴스 메쉬를 사용했습니다.
     - 후술할 맵 레이아웃이 트리 형태이므로 자식 방 -> 부모 방으로 규칙을 정하여 통로를 생성합니다.
+
     ```cpp
     void ALABRoomBase::MakePath(EAdjacentDirection Direction, float Length)
     {
@@ -188,8 +192,8 @@ toc: true
 
 위 로직은 모든 과정이 한 번에 수행되지만 과정을 시각화하기 위해 방 생성 간 딜레이를 주어 아래 GIF로 만들어 보았습니다.
 
-![image](https://jm911.github.io/assets/images/240417/2.gif){: width="30%" height="30%"}
-![image](https://jm911.github.io/assets/images/240417/3.gif){: width="30%" height="30%"}
+![image](https://jm911.github.io/assets/images/240417/2.gif){: width="30%" height="30%"} 
+![image](https://jm911.github.io/assets/images/240417/3.gif){: width="30%" height="30%"} 
 ![image](https://jm911.github.io/assets/images/240417/4.gif){: width="30%" height="30%"}
 
 
