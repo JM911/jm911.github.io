@@ -74,7 +74,8 @@ ANSI Escape Code 란 터미널을 제어하는 데 사용되는 표준이라고 
 ## 추가 테스트
 
 빛 방향을 회전하게 만들어 추가 테스트 진행  
-![image](https://jm911.github.io/assets/images/240515/4.gif)  
+![image](https://jm911.github.io/assets/images/240515/4.gif){: width="45%" height="45%"}
+![image](https://jm911.github.io/assets/images/240515/5.gif){: width="45%" height="45%"}
 
 
 최종 코드 참고: [링크](https://jm911.github.io/assets/images/240515/SpinningDonut.cpp)
