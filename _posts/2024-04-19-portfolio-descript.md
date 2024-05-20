@@ -23,7 +23,7 @@ title:  "포트폴리오 관련 설명"
 - 첫 취업 전 제작한 게임으로, 셀레스트라는 게임의 몇 가지 요소를 윈도우 응용프로그램 프레임워크로 구현한 것입니다.
 - 플레이 영상과 개발 일지가 있으므로 아래 둘을 참고해주세요.  
   
-[![포트폴리오 플레이 영상 링크](https://jm911.github.io/assets/images/240419/4.png)](https://youtu.be/98Rba-1BLNw)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/98Rba-1BLNw?si=bNOgU2hrCEqEskj6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## 개발 일지
 0. [개발 방향 설정](https://blog.naver.com/09na11/222587238196)
@@ -44,8 +44,7 @@ title:  "포트폴리오 관련 설명"
 - 첫 취업 전 제작한 게임으로 Pixel Game Engine 이라는 c++ 무료 엔진을 가지고 개발했습니다.
 - 자세한 것은 아래 영상을 참고해주시고, 첨부 파일에 있는 PPT와 PDF 발표자료는 참고용으로 봐주시면 좋을 것 같습니다.
 
-  [![포트폴리오 설명 영상 링크](https://jm911.github.io/assets/images/240419/5.png)](https://youtu.be/QPgUJ-miiBg)
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/QPgUJ-miiBg?si=qrINn0EJq4KgN7by" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
 
