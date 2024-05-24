@@ -14,6 +14,7 @@ toc: true
 수식과 그림을 표현할 엄두가 안나서 일단 과정 포스팅은 추후에 하기로 하고 우선 결과만 업로드한다.
 
 아래와 같이 갖고 놀기도 했다.
+
 ![image](https://jm911.github.io/assets/images/240525/2.gif){: width="45%" height="45%"}
 ![image](https://jm911.github.io/assets/images/240525/3.gif){: width="45%" height="45%"}
 
