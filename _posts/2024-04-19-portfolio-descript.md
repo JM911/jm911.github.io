@@ -1,6 +1,7 @@
 ---
 layout: single
 title:  "포트폴리오 관련 설명"
+published: false
 ---
 
 # 공통
