@@ -7,7 +7,6 @@ search: false
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
-<<<<<<< HEAD
 
 // 나눔스퀘어 네오
 @font-face {
@@ -16,5 +15,3 @@ search: false
     font-weight: normal;
     font-style: normal;
 }
-=======
->>>>>>> 7d212bc310fb0954b925114e78f3d5bd782c5994
